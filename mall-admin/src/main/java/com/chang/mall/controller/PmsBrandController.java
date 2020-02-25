@@ -1,8 +1,8 @@
 package com.chang.mall.controller;
 
+import com.chang.mall.common.api.CommonResult;
 import com.chang.mall.model.PmsBrand;
 import com.chang.mall.service.PmsBrandService;
-import com.chang.mall.common.api.CommonResult;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;

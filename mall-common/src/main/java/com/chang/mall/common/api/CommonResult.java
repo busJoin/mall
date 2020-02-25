@@ -1,9 +1,12 @@
 package com.chang.mall.common.api;
 
+import lombok.Data;
+
 /**
  * 通用返回对象
  * @create 2020-02-24 20:29
  */
+@Data
 public class CommonResult<T> {
     private Long code;
     private String message;
